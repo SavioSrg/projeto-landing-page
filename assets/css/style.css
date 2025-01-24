@@ -159,7 +159,7 @@
 
 .back-to-top {
     position: fixed;
-    bottom: 2rem;
+    bottom: 9.5rem;
     right: 2rem;
     background: var(--white-color);
     width: 5rem;
@@ -173,6 +173,15 @@
 }
 
 @media (max-width: 800px) {
+    h1{
+        font-size: 4rem;
+    }
+    
+    h2{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+
     .intro-content, .grid {
         grid-template-columns: 1fr;
     }
